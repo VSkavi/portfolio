@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kavi VS — Frontend Developer</title>
+  <meta name="description"
+    content="Frontend developer specialising in React, TypeScript and modern web interfaces. Based in Chennai, open to remote." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- ─── Nav ─── -->
+  <nav id="navbar">
+    <a href="#" class="nav-logo">Kavi<span>.</span></a>
+    <div class="nav-links">
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+      <a href="resume.pdf" target="_blank" rel="noopener" class="nav-cta">Download
+        CV</a>
+    </div>
+    <div class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#skills" onclick="closeMobileMenu()">Skills</a>
+    <a href="#projects" onclick="closeMobileMenu()">Projects</a>
+    <a href="#experience" onclick="closeMobileMenu()">Experience</a>
+    <a href="#contact" onclick="closeMobileMenu()">Contact</a>
+    <a href="https://kavi-vs-portfolio.netlify.app/resume.pdf" target="_blank" rel="noopener">Download CV</a>
+  </div>
+
+  <!-- ─── Hero ─── -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <div class="hero-eyebrow">
+            <span class="hero-eyebrow-dot"></span>
+            Available for full-time roles
+          </div>
+          <h1 class="hero-title">
+            I build interfaces<br>people <em>enjoy</em> using.
+          </h1>
+          <p class="hero-sub">
+            Frontend developer with a focus on React, JavaScript, and modern CSS —
+            turning design ideas into fast, polished, production-ready web experiences.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn-primary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                <path d="M9 18l6-6-6-6" />
+              </svg>
+              View my work
+            </a>
+            <a href="#contact" class="btn-secondary">
+              Get in touch
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-num">4+</div>
+              <div class="stat-label">Projects shipped</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">React</div>
+              <div class="stat-label">Primary stack</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">MCA</div>
+              <div class="stat-label">Top 5 · SFR College</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-avatar-wrap">
+          <div class="hero-avatar-bg"></div>
+          <img class="hero-avatar" src="images/kavi's profile.png" alt="Kavi VS — Frontend Developer" />
+          <div class="hero-avatar-ring"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Skills ─── -->
+  <section id="skills">
+    <div class="container">
+      <div class="skills-intro fade-up">
+        <span class="section-label">Toolkit</span>
+        <h2>Technologies I work with</h2>
+        <p>Focused on the modern frontend stack — with enough backend knowledge to ship full features end-to-end.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card fade-up">
+          <div class="skill-icon"><img src="images/react-brands-solid.png" alt=""></div>
+          <div>
+            <div class="skill-name">React</div>
+            <div class="skill-type">Core framework</div>
+          </div>
+        </div>
+        <div class="skill-card fade-up">
+          <div class="skill-icon"><img src="images/js-brands-solid.png" alt=""></div>
+          <div>
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-type">Type safety</div>
+          </div>
+        </div>
+        <div class="skill-card fade-up">
+          <div class="skill-icon"><img src="images/tailwind-css-brands-solid.png" alt=""></div>
+          <div>
+            <div class="skill-name">Tailwind CSS</div>
+            <div class="skill-type">Styling · v4</div>
+          </div>
+        </div>
+        <div class="skill-card fade-up">
+          <div class="skill-icon"><img src="images/github-brands-solid.png" alt=""></div>
+          <div>
+            <div class="skill-name">Git · GitHub</div>
+            <div class="skill-type">Version control</div>
+          </div>
+        </div>
+        <div class="skill-card fade-up">
+          <div class="skill-icon"><img src="images/shadcn.png" alt=""></div>
+          <div>
+            <div class="skill-name">ShadCN UI</div>
+            <div class="skill-type">Component library</div>
+          </div>
+        </div>
+        <div class="skill-card fade-up">
+          <div class="skill-icon"><img src="images/wordpress-brands-solid.png" alt=""></div>
+          <div>
+            <div class="skill-name">Wordpress</div>
+            <div class="skill-type">Content management</div>
+          </div>
+        </div>
+        <div class="skill-card fade-up">
+          <div class="skill-icon"><img src="images/bootstrap-brands-solid.png" alt=""></div>
+          <div>
+            <div class="skill-name">Bootstrap</div>
+            <div class="skill-type">CSS framework</div>
+          </div>
+        </div>
+        <div class="skill-card fade-up">
+          <div class="skill-icon"><img src="images/cursor.png" alt=""></div>
+          <div>
+            <div class="skill-name">Cursor.sh</div>
+            <div class="skill-type">AI-powered code editor</div>
+          </div>
+        </div>
+
+        <div class="skill-card fade-up">
+          <div class="skill-icon"><img src="images/figma-brands-solid.png" alt=""></div>
+          <div>
+            <div class="skill-name">Figma</div>
+            <div class="skill-type">Design to code</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Projects ─── -->
+  <section id="projects">
+    <div class="container">
+      <div class="projects-header fade-up">
+        <span class="section-label">Work</span>
+        <h2>Projects I've built</h2>
+        <p>Real-world applications with live deployments — not just tutorial clones.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: Expense Tracker -->
+        <div class="project-card fade-up">
+          <div class="project-visual" style="background: linear-gradient(135deg, #E8F0FE 0%, #D2E3FC 100%);">
+            <div class="project-visual-inner">
+              <div class="project-visual-bar">
+                <span class="pvb-dot"></span><span class="pvb-dot"></span><span class="pvb-dot"></span>
+                <span class="pvb-url">expense-tracker.vercel.app</span>
+              </div>
+              <div class="project-preview-lines">
+                <div class="ppl wide"></div>
+                <div style="display:flex;gap:8px;margin:4px 0;">
+                  <div
+                    style="flex:1;background:var(--accent-lt);border-radius:8px;padding:10px;font-size:10px;color:var(--accent);font-weight:700;">
+                    ₹ 24,800<br><span style="font-weight:400;color:var(--body)">This month</span></div>
+                  <div
+                    style="flex:1;background:#E6F4EA;border-radius:8px;padding:10px;font-size:10px;color:#137333;font-weight:700;">
+                    ₹ 8,200<br><span style="font-weight:400;color:var(--body)">Saved</span></div>
+                </div>
+                <div class="ppl mid"></div>
+                <div class="ppl short"></div>
+                <div class="ppl accent"></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">React 19</span>
+              <span class="tag">Tailwind v4</span>
+              <span class="tag">Recharts</span>
+              <span class="tag">Vite</span>
+              <span class="tag green">Live</span>
+            </div>
+            <h3 class="project-title">Expense Tracker</h3>
+            <p class="project-desc">A personal finance tracker with interactive Recharts visualisations, category
+              analytics, and real-time budget insights — built on the latest React 19 stack.</p>
+            <ul class="project-highlights">
+              <li>Category-wise spending breakdowns with interactive pie and bar charts</li>
+              <li>PDF export of monthly summaries via jsPDF</li>
+              <li>Fully responsive across all screen sizes with dark mode support</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://expense-tracker-plum-eight-57.vercel.app/" target="_blank" rel="noopener"
+                class="link-pill primary">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                  <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: College Portal -->
+        <div class="project-card reverse fade-up">
+          <div class="project-visual" style="background: linear-gradient(135deg, #E6F4EA 0%, #CEEAD6 100%);">
+            <div class="project-visual-inner">
+              <div class="project-visual-bar">
+                <span class="pvb-dot"></span><span class="pvb-dot"></span><span class="pvb-dot"></span>
+                <span class="pvb-url">collegewebportal.netlify.app</span>
+              </div>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px;">
+                <div
+                  style="background:#E6F4EA;border-radius:6px;padding:8px;font-size:10px;color:#137333;font-weight:700;">
+                  📅 Events<br><span style="font-size:9px;color:var(--body)">4 upcoming</span></div>
+                <div
+                  style="background:var(--accent-lt);border-radius:6px;padding:8px;font-size:10px;color:var(--accent);font-weight:700;">
+                  📢 Notices<br><span style="font-size:9px;color:var(--body)">3 new</span></div>
+              </div>
+              <div class="project-preview-lines">
+                <div class="ppl wide" style="background:#CEEAD6;"></div>
+                <div class="ppl mid"></div>
+                <div class="ppl short" style="background:#137333;opacity:0.4;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Flask</span>
+              <span class="tag">Python</span>
+              <span class="tag">Dialogflow</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag green">Live</span>
+            </div>
+            <h3 class="project-title">Integrated College Web Portal</h3>
+            <p class="project-desc">A full-stack college management platform — centralising academic info, automating
+              event registration, and providing 24/7 AI chatbot support for students.</p>
+            <ul class="project-highlights">
+              <li>Dialogflow chatbot handles student queries round-the-clock</li>
+              <li>Automated email confirmations on event registration — zero manual steps</li>
+              <li>Secure Flask admin dashboard with hashed authentication</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://collegewebportal.netlify.app/" target="_blank" rel="noopener" class="link-pill primary">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                  <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Mini project cards -->
+      <div class="projects-mini">
+
+        <div class="project-mini-card fade-up">
+          <div class="mini-icon">🎓</div>
+          <div class="mini-title">E-Learning Landing Page</div>
+          <p class="mini-desc">A clean, conversion-focused landing page for an online learning platform — fully
+            responsive layout across all devices.</p>
+          <div class="mini-tags">
+            <span class="mini-tag">Tailwind CSS</span>
+            <span class="mini-tag">JavaScript</span>
+            <span class="mini-tag">Bootstrap</span>
+          </div>
+          <div class="project-links">
+            <a href="https://elearning-landingpage.netlify.app/" target="_blank" rel="noopener" class="link-pill">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                <polyline points="15 3 21 3 21 9" />
+                <line x1="10" y1="14" x2="21" y2="3" />
+              </svg>
+              Live Demo
+            </a>
+          </div>
+        </div>
+        <div class="project-mini-card fade-up">
+          <div class="mini-icon">🛍️</div>
+          <div class="mini-title">SVARA Jewels</div>
+          <p class="mini-desc">E-commerce website for a luxury jewellery brand — elegant UI, product catalogue,
+            responsive checkout flow, and cross-device optimisation.</p>
+          <div class="mini-tags">
+            <span class="mini-tag">HTML & CSS</span>
+            <span class="mini-tag">JavaScript</span>
+            <span class="mini-tag">Bootstrap</span>
+          </div>
+          <div class="project-links">
+            <a href="project1.html" target="_blank" rel="noopener"
+              class="link-pill">Case
+              Study</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Experience & Education ─── -->
+  <section id="experience">
+    <div class="container">
+      <span class="section-label fade-up">Background</span>
+      <h2 class="fade-up" style="margin-bottom: 8px;">Experience &amp; Education</h2>
+      <p class="fade-up" style="margin-bottom: 0; max-width:480px;">A year of real-world client work and an MCA with a
+        top-5 rank — both grounding how I approach frontend problems.</p>
+
+      <div class="exp-grid">
+        <!-- Internship -->
+        <div class="exp-card fade-up">
+          <div class="exp-company">Phoenix Softech</div>
+          <div class="exp-header">
+            <div class="exp-role">Web Design Intern</div>
+            <span class="exp-date">Apr – May 2025</span>
+          </div>
+          <div class="exp-location">📍 Madurai, Tamil Nadu</div>
+          <ul class="exp-points">
+            <li>Audited live pages for UI/layout bugs causing cross-browser rendering issues</li>
+            <li>Redesigned navigation hierarchy to improve content findability</li>
+          </ul>
+        </div>
+
+        <!-- MCA -->
+        <div class="edu-card fade-up">
+          <div class="exp-company">SFR College for Women</div>
+          <div class="exp-header">
+            <div class="edu-degree">Master of Computer Applications</div>
+            <span class="exp-date">2024 – 2026</span>
+          </div>
+          <div class="edu-meta">📍 Sivakasi · CGPA 8.2/10.0</div>
+          <p style="font-size:14px;line-height:1.6;margin-bottom:16px;">Focus on full-stack web development, data
+            structures, and modern software engineering. Building React and Python projects alongside coursework.</p>
+
+        </div>
+
+        <!-- B.Sc -->
+        <div class="edu-card fade-up">
+          <div class="exp-company">SFR College for Women</div>
+          <div class="exp-header">
+            <div class="edu-degree">Bachelor of Mathematics</div>
+            <span class="exp-date">2021 – 2024</span>
+          </div>
+          <div class="edu-meta">📍 Sivakasi · CGPA 8.5/10.0</div>
+          <p style="font-size:14px;line-height:1.6;margin-bottom:16px;">Built a foundation in analytical thinking and
+            logical reasoning — directly shapes how I break down complex frontend problems.</p>
+        </div>
+
+        <!-- Languages / Extras -->
+        <div class="exp-card fade-up">
+          <div class="exp-company">Languages & Extras</div>
+          <div class="exp-role" style="margin-bottom:20px;">Communication</div>
+          <ul class="exp-points">
+            <li>Tamil — Native</li>
+            <li>English — Proficient (reading, writing, speaking)</li>
+            <li>Japanese — Currently learning</li>
+          </ul>
+          <div style="margin-top:20px;padding-top:20px;border-top:1px solid var(--border);">
+            <div style="font-size:13px;font-weight:700;color:var(--heading);margin-bottom:10px;">Interests</div>
+            <div style="display:flex;flex-wrap:wrap;gap:8px;">
+              <span class="mini-tag" style="background:var(--accent-lt);color:var(--accent);">UI Design</span>
+              <span class="mini-tag" style="background:var(--accent-lt);color:var(--accent);">Open Source</span>
+              <span class="mini-tag" style="background:var(--accent-lt);color:var(--accent);">Web Performance</span>
+              <span class="mini-tag" style="background:var(--accent-lt);color:var(--accent);">PWA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Contact ─── -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-inner fade-up">
+        <span class="section-label">Contact</span>
+        <div class="availability">
+          <span class="avail-dot"></span>
+          Open to Remote Oppurtunities
+        </div>
+        <h2>Let's build something together.</h2>
+        <p>I'm actively looking for frontend developer roles — remote or Chennai-based. If you're working on something
+          interesting, I'd love to hear about it.</p>
+        <div class="contact-links">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vskavi20@gmail.com&su=Let's%20Connect%20and%20Collaborate!🤝🏻&body=Hi%20Kavi%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20was%20really%20impressed%20by%20your%20work.%20I'd%20love%20to%20connect%20and%20explore%20potential%20collaborations.%0A%0ABest%20regards%2C"
+          target="_blank" rel="noopener noreferrer" class="contact-chip">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            </svg>
+            vskavi20@gmail.com
+          </a>
+          <a href="https://linkedin.com/in/kavivs26" target="_blank" rel="noopener" class="contact-chip">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/VSkavi" target="_blank" rel="noopener" class="contact-chip">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+            </svg>
+            GitHub
+          </a>
+          <a href="tel:+917538866406" class="contact-chip">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.1 1.22 2 2 0 012.1.04h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
+            </svg>
+            +91 75388 66406
+          </a>
+        </div>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vskavi20@gmail.com&su=Let's%20Connect%20and%20Collaborate!🤝🏻&body=Hi%20Kavi%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20was%20really%20impressed%20by%20your%20work.%20I'd%20love%20to%20connect%20and%20explore%20potential%20collaborations.%0A%0ABest%20regards%2C"
+          target="_blank" rel="noopener noreferrer" class="contact-email-big">
+          Say Hello →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Footer ─── -->
+  <footer>
+    <div>Designed &amp; built by <span>Kavi VS</span></div>
+    <div>Chennai, Tamil Nadu · Open to remote</div>
+    <div>© 2026</div>
+  </footer>
+
+  <script>
+    // Nav scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 20);
+    }, { passive: true });
+
+    // Hamburger menu
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    hamburger.addEventListener('click', () => {
+      mobileMenu.classList.toggle('open');
+    });
+    function closeMobileMenu() {
+      mobileMenu.classList.remove('open');
+    }
+    // Close on outside click
+    document.addEventListener('click', (e) => {
+      if (!hamburger.contains(e.target) && !mobileMenu.contains(e.target)) {
+        closeMobileMenu();
+      }
+    });
+
+    // Scroll-reveal
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => {
+            entry.target.classList.add('visible');
+          }, 60 * (entry.target.dataset.delay || 0));
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.fade-up').forEach((el, i) => {
+      el.dataset.delay = i % 4;
+      observer.observe(el);
+    });
+  </script>
+</body>
+
+</html>

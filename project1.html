@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SVARA Jewels Case Study</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f6f7fb;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        /* CONTAINER */
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 0;
+        }
+
+        /* HERO SECTION */
+
+        .hero {
+            background: linear-gradient(120deg, #0f172a, #1e293b);
+            color: white;
+            padding: 60px 40px;
+            border-radius: 14px;
+            margin-bottom: 40px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero h1 {
+            font-size: 34px;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        .hero p {
+            opacity: 0.85;
+        }
+
+        /* CARD SECTION */
+
+        .card {
+            background: white;
+            padding: 35px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+        }
+
+        .card h2 {
+            margin-bottom: 15px;
+            color: #0f172a;
+        }
+
+        .card ul {
+            padding-left: 18px;
+        }
+
+        .card li {
+            margin-bottom: 10px;
+        }
+
+        /* IMAGE SECTION */
+
+        .image-banner {
+            margin: 30px 0;
+        }
+
+        .image-banner img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        /* GALLERY */
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            transition: 0.3s;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery img:hover {
+            transform: scale(1.03);
+        }
+
+        /* FOOTER */
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #777;
+            font-size: 14px;
+        }
+
+
+        /* NAVBAR */
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 40px;
+            background: white;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: 600;
+            color: #0f172a;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .resume-btn {
+            background: #f6f7fb;
+            border: 1px solid #334155;
+            color: white;
+            padding: 8px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .resume-btn:hover {
+            background: #334155;
+            color: white;
+        }
+
+        /* VIDEO BANNER */
+
+        .image-banner {
+            margin: 30px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .image-banner video {
+
+            width: 100%;
+            max-width: 850px;
+            border-radius: 12px;
+
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+
+            transition: transform 0.3s ease;
+        }
+
+        .image-banner video:hover {
+            transform: scale(1.01);
+        }
+
+        /* MOBILE RESPONSIVE */
+
+        @media(max-width:768px) {
+
+            .image-banner video {
+                max-width: 100%;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar">
+
+        <a href="portfolio.html" class="logo">KAVI VS</a>
+
+        <div class="nav-links">
+
+            <a href="portfolio.html" style="border: 1px solid #334155; border-radius: 5px; padding: 8px; background: #f6f7fb;"><i class="fa-solid fa-house" style="font-size: 20px; color: #334155; "></i></a>
+
+            <a href="resume.pdf" target="_blank" class="resume-btn">
+                View Resume
+            </a>
+
+        </div>
+
+    </nav>
+
+    <div class="container">
+
+        <!-- HERO -->
+
+        <section class="hero">
+            <h1>SVARA Jewels – E-commerce Website</h1>
+            <p>Luxury jewellery shopping experience with elegant UI and seamless usability</p>
+        </section>
+
+
+        <!-- PROJECT OVERVIEW -->
+
+        <section class="card">
+
+            <h2>Project Overview</h2>
+
+            <p>
+                SVARA JEWELS is a luxury jewellery brand focused on providing an elegant and
+                premium online shopping experience. The goal of the project was to design a
+                modern e-commerce website that highlights jewellery craftsmanship while
+                ensuring a smooth and intuitive user journey.
+            </p>
+
+            <div class="image-banner">
+                <video  autoplay muted loop>
+                    <source src="PROJECT1.mp4" type="video/mp4">
+                </video>
+            </div>
+
+        </section>
+        
+
+
+        <!-- CHALLENGES -->
+
+        <section class="card">
+
+            <h2>Challenges</h2>
+
+            <ul>
+
+                <li>
+                    Designing a luxurious yet user-friendly interface that reflects the
+                    brand’s elegance and exclusivity.
+                </li>
+
+                <li>
+                    Balancing visual aesthetics with usability to ensure easy navigation
+                    and smooth product exploration.
+                </li>
+
+                <li>
+                    Creating a seamless checkout flow across all devices including
+                    desktop, tablet and mobile.
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- SOLUTION -->
+
+        <section class="card">
+
+            <h2>Solution</h2>
+
+            <ul>
+
+                <li>
+                    Developed a clean and elegant interface with high-quality product
+                    imagery and minimal layouts.
+                </li>
+
+                <li>
+                    Introduced structured product categories and filtering options to
+                    improve discoverability.
+                </li>
+
+                <li>
+                    Designed product pages with zoom images, detailed descriptions,
+                    and trust indicators like certifications and secure payments.
+                </li>
+
+                <li>
+                    Optimized the entire shopping flow for responsiveness and
+                    performance across devices.
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- DESIGN GOALS -->
+
+        <section class="card">
+
+            <h2>Design Goals</h2>
+
+            <ul>
+
+                <li>Create a refined visual identity using elegant typography.</li>
+
+                <li>Build intuitive navigation and product discovery.</li>
+
+                <li>Highlight jewellery craftsmanship with immersive visuals.</li>
+
+                <li>Ensure responsive design for all screen sizes.</li>
+
+                <li>Increase customer trust through certifications and reviews.</li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- VISUAL DESIGN -->
+
+        <section class="card">
+
+            <h2>Visual Design</h2>
+
+            <div class="gallery">
+                <img src="images/card 2.png" alt="Design 1">
+                <img src="images/image (1).png" alt="Design 1">
+                <img src="images/image (2).png" alt="Design 1">
+                <img src="images/image (3).png" alt="Design 1">
+                <img src="images/image (4).png" alt="Design 1">
+                <img src="images/image (5).png" alt="Design 1">
+
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECT OUTCOME -->
+
+        <section class="card">
+
+            <h2>Project Outcome</h2>
+
+            <p>
+                The final design successfully combines luxury aesthetics with
+                user-friendly functionality. Clear navigation, immersive product
+                visuals and a smooth checkout experience improved usability
+                and strengthened customer trust. The platform effectively
+                showcases SVARA JEWELS collections while supporting
+                higher engagement and conversions.
+            </p>
+
+        </section>
+
+        <div class="footer">
+           
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+```
